@@ -1,0 +1,53 @@
+package quiz2;
+import java.util.Scanner;
+public class exercise1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc= new Scanner(System.in);
+		
+		double salary,salary2,salary3,salary4;
+		String name;
+		int year,year2,year3,year4;
+		double bonus;
+		
+		System.out.println("Please type your name : ");
+		name = sc.nextLine();
+		System.out.println("Please type your salary : ");
+		salary = sc.nextDouble();
+		System.out.println("Please type your year of service : ");
+		year = sc.nextInt();
+		
+		if(year>3) {
+			bonus = salary*2.00;
+			System.out.println("the bonus for you is: " + bonus);
+		}
+		
+	else {
+		System.out.println("NO bonus will be given to you sorry!");
+	}
+	
+		double highestsalary = salary *2.00;
+		double lowestsalary = salary *1.00;
+		System.out.println("Highest salary : " + highestsalary);
+		System.out.println("Lowest salary : " + lowestsalary);
+		
+	System.out.println("Please type your name : ");
+	name = sc.nextLine();
+	System.out.println("Please type your salary: ");
+	salary2=sc.nextDouble();
+	System.out.println("Please type your year of service: ");
+	year2=sc.nextInt();
+	System.out.println("Please type your name : ");
+	name = sc.nextLine();
+	System.out.println("Please type your salary: ");
+	salary3=sc.nextDouble();
+	System.out.println("Please type your year of service: ");
+	year3=sc.nextInt();
+	System.out.println("Please type your name : ");
+	name = sc.nextLine();
+	System.out.println("Please type your salary: ");
+	salary4=sc.nextDouble();
+	System.out.println("Please type your year of service: ");
+	year4=sc.nextInt();}}
